@@ -1,0 +1,13 @@
+# Helm chart packages
+*.tgz
+
+# Lock files
+chart.lock
+
+# Backups
+*.bak
+*.tmp
+*.old
+
+# Temporary YAML files
+*.tmp.yaml

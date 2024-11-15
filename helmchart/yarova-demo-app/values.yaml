@@ -1,0 +1,28 @@
+# nameSpace is a custom namespace where Kubernetes resources will be provisioned
+nameSpace: yarowa-demo
+
+appName: yarowa-app
+
+# replicaCount is a number of deployment replicas
+replicaCount: 1
+
+# Repository and tag for the Docker image
+image:
+  repository: hala0ner/yarowa-demo
+  tag: 1.0.0
+
+# Container port on which is the application listening
+container:
+  port: 5000
+
+# Service port on which is service listening 
+service:
+  port: 80
+
+# Ingress domain name
+ingressHost: casestudy.local.yarowa.io
+
+# Ingress port on which is ingress listening
+ingress:
+  backend:
+    port: 80

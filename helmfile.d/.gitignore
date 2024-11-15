@@ -1,0 +1,24 @@
+# Temporary files and backups
+*.tmp
+*.bak
+*.swp
+*.log
+*.orig
+
+# OS-specific files
+.DS_Store    # macOS
+Thumbs.db    # Windows
+
+# Editor-specific files
+.idea/       # IntelliJ IDEs
+.vscode/     # Visual Studio Code
+*.sublime-*
+*.kate-swp
+
+# Backup and generated files
+*~
+*.old
+*.save
+
+# Helmfile output and debug files
+helmfile.lock

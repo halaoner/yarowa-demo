@@ -24,7 +24,7 @@ This repository is consisted of a demo FastAPI web application running in a Kube
 
 ## Prerequisites
 
-Below are prerequisites necessary to run the project locally.
+Below prerequisites are necessary to run the project locally.
 
 >💡 **NOTE** 💡
 >
@@ -76,7 +76,7 @@ Docker image is available in the [public Docker Hub repository](https://hub.dock
 1. Clone the repository:
 
 ```bash
-git clone TBD
+git clone git@github.com:halaoner/yarowa-demo.git
 ```
 
 2. Make sure the steps from [Prerequisites](#prerequisites) section are implemented.
@@ -84,7 +84,7 @@ git clone TBD
 ... there are two ways of deploying the Helm chart into the Kuberentes cluster ...
 
 - **Option 1** - using `helmfile`
-- **Option 2** - using `build_and_deploy.sh` script --> The script builds and pushes the Docker image into the public Docker Hub repository. Then, deploys the Helm chart into the Kubernetes cluster, and checks the connection to the pod via `curl` command
+- **Option 2** - using `build_and_deploy.sh` script --> The script builds and pushes the Docker image to the public Docker Hub repository. Then, deploys the Helm chart into the Kubernetes cluster, and checks the connection to the pod via `curl` command
 > 🚧 `build` and `push` functions are commented out by default.
 
 ## Option 1
@@ -92,7 +92,7 @@ git clone TBD
 1. Navigate to the `helmfile.d/` directory:
 
 ```
-cd case-study/helmfile.d/
+cd yarowa-demo/helmfile.d/
 ```
 
 2. Deploy helmfile:
@@ -241,8 +241,8 @@ Output:
 # ChatGPT Usage
 
 - Improving FastAPI wep app (handling invalid endpoints) + generating `error.html` template
-- Improving Helm chart `templates`
-- Improving `build_and_deploy.sh`
+- Improving Helm chart `templates` - following best practices
+- Improving `build_and_deploy.sh` - optimizing `STATUS_CODE`
 - Generating `.gitignore` files
 
 

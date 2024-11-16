@@ -1,6 +1,7 @@
 # nameSpace is a custom namespace where Kubernetes resources will be provisioned
 nameSpace: yarowa-demo
 
+# appName is the name of the application
 appName: yarowa-app
 
 # replicaCount is a number of deployment replicas

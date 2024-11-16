@@ -22,6 +22,10 @@ This repository is consisted of a demo FastAPI web application running in a Kube
 └── USE_CASE.md               # Use case instructions
 ```
 
+## High-Level Architecture
+
+![yarowa-kubernetes-cluster](./assets/yarowa-k8s-cluster.png)
+
 ## Prerequisites
 
 Below prerequisites are necessary to run the project locally.

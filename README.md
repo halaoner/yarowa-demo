@@ -90,7 +90,6 @@ git clone git@github.com:halaoner/yarowa-demo.git
 
 - **Option 1** - using `helmfile`
 - **Option 2** - using `build_and_deploy.sh` script --> The script builds and pushes the Docker image to the public Docker Hub repository. Then, deploys the Helm chart into the Kubernetes cluster, and checks the connection to the pod via `curl` command
-> 🚧 `build` and `push` functions are commented out by default.
 
 ## Option 1
 
@@ -137,6 +136,8 @@ yarowa-app   yarowa-demo   ../helmchart/yarova-demo-app/   0.1.0           0s
 ```bash
 ./build_and_deploy.sh
 ```
+
+> 🚧 `build` and `push` functions are commented out by default.
 
 2. Check if the Helm chart was deployed to the Kubernetes cluster and the connection to the pod on port `80` was established:
 

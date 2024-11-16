@@ -1,6 +1,6 @@
 # Introduction
 
-This repository is consisted of a demo FastAPI web application running in a Kubernetes cluster.
+This repository consists of a demo FastAPI web application running in a Kubernetes cluster.
 
 ## Simplifield Project Structure
 
@@ -8,6 +8,7 @@ This repository is consisted of a demo FastAPI web application running in a Kube
 ├── Dockerfile                # Dockerfile for the FastAPI web app
 ├── LICENSE.md                # MIT License
 ├── README.md                 # Instructions on how to get started
+├── assets                    
 ├── app                       # FastAPI application code
 │   ├── main.py
 │   ├── requirements.txt

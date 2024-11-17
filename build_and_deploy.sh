@@ -58,7 +58,7 @@ helmfile_deploy() {
 test_connection() {
     URL="casestudy.local.yarowa.io"
 
-    echo "Waiting for the applicaton to start up..."
+    echo "Waiting for the application to start up..."
     sleep 5
 
     # Send the request and capture the status code

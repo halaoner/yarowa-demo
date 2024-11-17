@@ -131,7 +131,7 @@ yarowa-app   yarowa-demo   ../helmchart/yarova-demo-app/   0.1.0           0s
 
 ## Option 2
 
-1. Execute the `build_and_deploy.sh` script:
+1. Execute the `build_and_deploy.sh` script (in the root directory):
 
 ```bash
 ./build_and_deploy.sh

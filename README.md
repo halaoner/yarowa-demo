@@ -19,8 +19,7 @@ This repository consists of a demo FastAPI web application running in a Kubernet
 │       ├── Chart.yaml
 │       ├── templates
 │       └── values.yaml
-├── helmfile.d                # Helmfile deploys Helm Charts in to a Kubernetes cluster
-└── USE_CASE.md               # Use case instructions
+└── helmfile.d                # Helmfile deploys Helm Charts in to a Kubernetes cluster
 ```
 
 ## High-Level Architecture

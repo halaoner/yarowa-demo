@@ -56,9 +56,9 @@ Below prerequisites are necessary to run the project locally.
 
 >💡 [kubectl](https://kubernetes.io/docs/tasks/tools/) should work out of the box if you are using Docker Desktop
 
-4. Install `curl` if not already instaled.
+4. Install `curl` if not already installed.
 
-5. Install [nginx ingress controler](https://kubernetes.github.io/ingress-nginx/deploy/#quick-start) into the Kubernetes cluster:
+5. Install [nginx ingress controller](https://kubernetes.github.io/ingress-nginx/deploy/#quick-start) into the Kubernetes cluster:
 
 ```bash
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.12.0-beta.0/deploy/static/provider/cloud/deploy.yaml
